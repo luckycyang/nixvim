@@ -197,6 +197,38 @@
         desc = "File browser";
       };
     }
+    {
+      mode = "n";
+      key = "<leader>f";
+      action = "+find/file";
+      options = {
+        desc = "find/file";
+      };
+    }
+    {
+      mode = "n";
+      key = "<leader>g";
+      action = "+git";
+      options = {
+        desc = "git";
+      };
+    }
+    {
+      mode = "n";
+      key = "<leader>u";
+      action = "+ui";
+      options = {
+        desc = "ui";
+      };
+    }
+    {
+      mode = "n";
+      key = "<leader>s";
+      action = "+search";
+      options = {
+        desc = "search";
+      };
+    }
   ];
   extraConfigLua = ''
     require("telescope").setup{

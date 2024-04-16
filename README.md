@@ -6,10 +6,12 @@
 
 - [`bufferline`](https://github.com/akinsho/bufferline.nvim) A snazzy 💅 buffer line (with tabpage integration) for Neovim built using lua.
 - [`catppuccin`](https://github.com/catppuccin/nvim) A buity color theme By Catppuccin
+- [`noice`](https://github.com/folke/noice.nvim) 💥 Highly experimental plugin that completely replaces the UI for messages, cmdline and the popupmenu.
 
 **Utils**
 
 - [`whitch-key`](https://github.com/folke/which-key.nvim) 💥 Which Key
+- [`telescope`](https://github.com/nvim-telescope/telescope.nvim) Find, Filter, Preview, Pick. All lua, all the time.
 
 **completion, lsp ...**
 

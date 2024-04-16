@@ -11,6 +11,6 @@
     })
   ];
   extraConfigLua = ''
-    require("hlchunk").setup({})
+    require('hlchunk').setup({})
   '';
 }
