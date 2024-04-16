@@ -17,3 +17,4 @@
 - [`nvim-cmp`](https://github.com/hrsh7th/nvim-cmp) A completion plugin for neovim coded in Lua.
 - [`hlchunk`](https://github.com/shellRaining/hlchunk.nvim) highlight your indent line and the current chunk (context) your cursor stayed
 - [`nvim-treesitter`](https://github.com/nvim-treesitter/nvim-treesitter) Nvim Treesitter configurations and abstraction layer
+- [`fidget`](https://github.com/j-hui/fidget.nvim) https://github.com/j-hui/fidget.nvim
