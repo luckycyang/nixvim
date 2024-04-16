@@ -5,6 +5,7 @@
     ./bufferline.nix
     ./clipboard.nix
     ./sets.nix
+    ./keymaps.nix
     ./plugs
   ];
 }
