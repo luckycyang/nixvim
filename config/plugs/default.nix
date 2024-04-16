@@ -1,7 +1,7 @@
 {
   imports = [
     ./utils
-    ./lsp/lsp.nix
+    ./lsp
     ./snippet/luasnip.nix
     ./completion/cmp.nix
   ];
