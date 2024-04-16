@@ -5,5 +5,6 @@
     ./bufferline.nix
     ./clipboard.nix
     ./sets.nix
+    ./plugs
   ];
 }
