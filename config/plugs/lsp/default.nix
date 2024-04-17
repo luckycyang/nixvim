@@ -5,5 +5,6 @@
     ./fidget.nix
     ./none-ls.nix
     ./dap.nix
+    ./rustaceanvim.nix
   ];
 }
