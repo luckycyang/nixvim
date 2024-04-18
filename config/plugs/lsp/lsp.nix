@@ -1,4 +1,14 @@
-{
+let
+  pkgs =
+    import (
+      builtins.fetchTarball {
+        url = "https://github.com/NixOS/nixpkgs/archive/nixos-23.11.tar.gz";
+        sha256 = "0yqbwqbripb1bbhlwjfbqmg9qb0lai2fc0k1vfh674d6rrc8igwv";
+      }
+    ) {
+      localSystem = "x86_64-linux";
+    };
+in {
   plugins = {
     lsp-format = {enable = true;};
     lsp = {
@@ -7,7 +17,10 @@
         clangd.enable = true;
         cmake.enable = true;
         nil_ls.enable = true;
-        pylyzer.enable = false;
+        pylyzer = {
+          enable = true;
+          package = pkgs.pylyzer;
+        };
       };
       keymaps = {
         silent = true;
