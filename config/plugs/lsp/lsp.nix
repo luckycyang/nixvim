@@ -18,9 +18,10 @@ in {
         cmake.enable = true;
         nil_ls.enable = true;
         pylyzer = {
-          enable = true;
+          enable = false;
           package = pkgs.pylyzer;
         };
+        pyright.enable = true;
       };
       keymaps = {
         silent = true;
