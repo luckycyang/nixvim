@@ -20,3 +20,5 @@
 - [`hlchunk`](https://github.com/shellRaining/hlchunk.nvim) highlight your indent line and the current chunk (context) your cursor stayed
 - [`nvim-treesitter`](https://github.com/nvim-treesitter/nvim-treesitter) Nvim Treesitter configurations and abstraction layer
 - [`fidget`](https://github.com/j-hui/fidget.nvim) https://github.com/j-hui/fidget.nvim
+- [`none-ls`](https://github.com/nvimtools/none-ls.nvim) null-ls.nvim reloaded / Use Neovim as a language server to inject LSP diagnostics, code actions, and more via Lua.
+- [`rustaceanvim`](https://github.com/mrcjkb/rustaceanvim) Supercharge your Rust experience in Neovim! A heavily modified fork of rust-tools.nvim
