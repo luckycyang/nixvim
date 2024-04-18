@@ -2,18 +2,17 @@
   plugins.dap = {
     enable = true;
     configurations = {
-      cpp = [
+      c = [
         {
-          name = "Lauch cpp";
-          request = "launch";
+          name = "Launch";
           type = "gdb";
-          program = ''
+          request = "launch";
+          program = ''              
             function()
-            	return vim.fn.input('Path to executable: ', vim.fn.getcwd() .. '/', 'file')
-            end
-          '';
+              return vim.fn.input('Path to executable: ', vim.fn.getcwd() .. '/', 'file')
+            end'';
           cwd = "\${workspaceFolder}";
-          stopAtEntry = true;
+          stopAtBeginningOfMainSubprogram = false;
         }
       ];
     };
@@ -24,10 +23,27 @@
         command = "${pkgs.gdb}/bin/gdb";
       };
     };
-    extensions.dap-ui = {
-      enable = true;
-      mappings = {
-        toggle = "t";
+    extensions = {
+      dap-ui = {
+        enable = true;
+        mappings = {
+          toggle = "t";
+        };
+      };
+      dap-virtual-text.enable = true;
+    };
+    signs = {
+      dapBreakpoint = {
+        text = "●";
+        texthl = "DapBreakpoint";
+      };
+      dapBreakpointCondition = {
+        text = "●";
+        texthl = "DapBreakpointCondition";
+      };
+      dapLogPoint = {
+        text = "◆";
+        texthl = "DapLogPoint";
       };
     };
   };
@@ -49,4 +65,19 @@
       };
     }
   ];
+  extraConfigLua = ''
+    local dap = require("dap")
+    dap.configurations.cpp = {
+      {
+        name = "Launch",
+        type = "gdb",
+        request = "launch",
+        program = function()
+          return vim.fn.input('Path to executable: ', vim.fn.getcwd() .. '/', 'file')
+        end,
+        cwd = "$\{workspaceFolder}",
+        stopAtBeginningOfMainSubprogram = false,
+      },
+    }
+  '';
 }
