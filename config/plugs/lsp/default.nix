@@ -6,5 +6,6 @@
     ./none-ls.nix
     ./dap.nix
     ./rustaceanvim.nix
+    ./inlayhints.nix
   ];
 }

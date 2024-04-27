@@ -1,3 +1,3 @@
 {
-  plugins.obsidian.enable = true;
+  plugins.obsidian.enable = false;
 }

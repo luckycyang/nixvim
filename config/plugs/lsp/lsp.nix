@@ -22,6 +22,9 @@ in {
           package = pkgs.pylyzer;
         };
         pyright.enable = true;
+        marksman.enable = true;
+        sqls.enable = true;
+        typst-lsp.enable = true;
       };
       keymaps = {
         silent = true;

@@ -34,6 +34,7 @@
         clang_format.enable = true;
         stylua.enable = true;
         yamlfmt.enable = true;
+        sqlfluff.enable = true;
       };
     };
   };
