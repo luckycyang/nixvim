@@ -25,6 +25,7 @@ in {
         marksman.enable = true;
         sqls.enable = true;
         typst-lsp.enable = true;
+        elixirls.enable = true;
       };
       keymaps = {
         silent = true;
