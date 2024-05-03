@@ -26,6 +26,7 @@ in {
         sqls.enable = true;
         typst-lsp.enable = true;
         elixirls.enable = true;
+        slint-lsp.enable = true;
       };
       keymaps = {
         silent = true;
