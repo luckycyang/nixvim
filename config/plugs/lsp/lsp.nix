@@ -27,6 +27,7 @@ in {
         typst-lsp.enable = true;
         elixirls.enable = true;
         slint-lsp.enable = true;
+        metals.enable = true;
       };
       keymaps = {
         silent = true;
