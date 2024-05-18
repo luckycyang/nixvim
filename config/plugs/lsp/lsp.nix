@@ -28,6 +28,7 @@ in {
         elixirls.enable = true;
         slint-lsp.enable = true;
         metals.enable = true;
+        yamlls.enable = true;
       };
       keymaps = {
         silent = true;
