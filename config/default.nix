@@ -1,8 +1,9 @@
 {
   # Import all your configuration modules here
-  imports = [ 
+  imports = [
     ./bufferline.nix
     ./sets.nix
+    ./keys.nix
     ./plug/colortheme
     # completion
     ./plug/completion/cmp.nix
