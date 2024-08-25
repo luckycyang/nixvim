@@ -36,6 +36,18 @@
         yamlls = {
           enable = true;
         };
+        typst-lsp = {
+          enable = true;
+        };
+        cmake = {
+          enable = true;
+        };
+        clangd = {
+          enable = true;
+        };
+        zls = {
+          enable = true;
+        };
       };
       keymaps = {
         silent = true;

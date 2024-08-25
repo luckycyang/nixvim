@@ -18,6 +18,7 @@
     ./plug/lsp/hlchunk.nix
     ./plug/lsp/lspsaga.nix
     ./plug/lsp/trouble.nix
+    ./plug/lsp/rustaceanvim.nix
 
     # utils
     ./plug/utils/whichkey.nix
