@@ -36,9 +36,6 @@
         yamlls = {
           enable = true;
         };
-        typst-lsp = {
-          enable = true;
-        };
         cmake = {
           enable = true;
         };
