@@ -10,6 +10,7 @@
     # snippets
     ./plug/snippets/luasnip.nix
     # lsp
+    ./plug/lsp/conform.nix
     ./plug/lsp/lsp.nix
     ./plug/lsp/fidget.nix
     ./plug/lsp/hlchunk.nix
