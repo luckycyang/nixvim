@@ -12,6 +12,7 @@
     # lsp
     ./plug/lsp/conform.nix
     ./plug/lsp/lsp.nix
+    ./plug/lsp/none-ls.nix
     ./plug/lsp/fidget.nix
     ./plug/lsp/hlchunk.nix
 
