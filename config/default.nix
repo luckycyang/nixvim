@@ -27,5 +27,8 @@
     ./plug/treesitter/treesitter.nix
     # ui
     ./plug/ui/telescope.nix
+
+    # git
+    ./plug/git/lazygit.nix
   ];
 }
