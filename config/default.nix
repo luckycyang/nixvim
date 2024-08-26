@@ -22,11 +22,15 @@
 
     # utils
     ./plug/utils/whichkey.nix
+    ./plug/utils/comment.nix
 
     # treesitter
     ./plug/treesitter/treesitter.nix
+    ./plug/treesitter/treesitter-context.nix
+    ./plug/treesitter/treesitter-textobjects.nix
     # ui
     ./plug/ui/telescope.nix
+    ./plug/ui/noice.nix
 
     # git
     ./plug/git/lazygit.nix
