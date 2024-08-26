@@ -23,6 +23,7 @@
     # utils
     ./plug/utils/whichkey.nix
     ./plug/utils/comment.nix
+    ./plug/utils/colorizer.nix
 
     # treesitter
     ./plug/treesitter/treesitter.nix
