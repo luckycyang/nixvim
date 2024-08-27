@@ -35,5 +35,8 @@
 
     # git
     ./plug/git/lazygit.nix
+
+    # lualine
+    ./plug/snippets/luasnip.nix
   ];
 }
