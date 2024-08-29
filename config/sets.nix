@@ -1,5 +1,6 @@
 {
   config = {
+    clipboard.register = "unnamedplus";
     opts = {
       # Enable relative line numbers
       number = true;

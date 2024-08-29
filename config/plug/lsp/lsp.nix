@@ -45,6 +45,9 @@
         zls = {
           enable = true;
         };
+        dartls = {
+          enable = true;
+        };
       };
       keymaps = {
         silent = true;
