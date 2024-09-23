@@ -48,6 +48,9 @@
         dartls = {
           enable = true;
         };
+        typst-lsp = {
+          enable = true;
+        };
       };
       keymaps = {
         silent = true;

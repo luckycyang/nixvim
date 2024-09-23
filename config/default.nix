@@ -24,6 +24,7 @@
     ./plug/utils/whichkey.nix
     ./plug/utils/comment.nix
     ./plug/utils/colorizer.nix
+    ./plug/utils/multicursors.nix
 
     # treesitter
     ./plug/treesitter/treesitter.nix
