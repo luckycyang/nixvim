@@ -72,7 +72,7 @@
         "v"
       ];
       key = "<leader>t";
-      action = "+test";
+      action = "+test/term";
     }
 
     # Tabs
@@ -424,6 +424,14 @@
       action = "<CMD> Grapple select index=4<CR>";
       options = {
         desc = "Grapple Select 4";
+      };
+    }
+    {
+      mode = "n";
+      key = "<leader>tT";
+      action = "<CMD>term<CR>";
+      options = {
+        desc = "Open Term";
       };
     }
   ];
