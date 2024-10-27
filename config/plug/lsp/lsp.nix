@@ -48,7 +48,9 @@
         dartls = {
           enable = true;
         };
-
+        slint_lsp = {
+          enable = true;
+        };
       };
       keymaps = {
         silent = true;
