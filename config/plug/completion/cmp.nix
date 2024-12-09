@@ -33,6 +33,7 @@
             option.get_bufnrs.__raw = "vim.api.nvim_list_bufs";
             keywordLength = 3;
           }
+          { name = "path"; }
           {
             name = "luasnip"; # snippets
             keywordLength = 3;
