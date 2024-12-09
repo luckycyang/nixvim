@@ -6,5 +6,12 @@
     ./sets.nix
     ./keys.nix
     ./colortheme.nix
+
+    # cmp
+    ./plug/cmp/cmp.nix
+
+    # lsp
+    ./plug/lsp/lsp.nix
+
   ];
 }
