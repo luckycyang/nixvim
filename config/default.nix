@@ -5,5 +5,6 @@
     ./bufferline.nix
     ./sets.nix
     ./keys.nix
+    ./colortheme.nix
   ];
 }
