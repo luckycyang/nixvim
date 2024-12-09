@@ -69,7 +69,7 @@
       foldcolumn = "0";
       foldlevel = 99;
       foldlevelstart = 99;
-      foldenable = true;
+      foldenable = false;
 
       # Always keep 8 lines above/below cursor unless at start/end of file
       scrolloff = 8;
